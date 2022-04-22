@@ -15,7 +15,7 @@
       'menu main main right'
       'menu footer footer right';
     padding: 10px;
-    background-color:rgb(15, 218, 99);
+    background-color:#187bcd;
 }
 
 .Track-action {
@@ -49,7 +49,7 @@
 
 .Track-information p {
     font-size: .80rem;
-    font-weight: 300;
+    font-weight: 400;
     /* color: rgba(256, 256, 256, 1); */
     color: #000;
     padding-left: 6px;

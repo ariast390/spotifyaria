@@ -10,16 +10,58 @@ html {
 
 h1 {
   padding: .77rem 0;
-  background-color: #010c3f;
+  /* background-color: #010c3f; */
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.88rem;
   color: #fff;
+
+  animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #032343;
+  }
+  25% {
+    background-color: #2e9277;
+  }
+  50% {
+    background-color: #ad7a5b;
+  }
+  75% {
+    background-color: #ddb982;
+ }
+ 100% {
+  background-color: #032343;
+  }
 }
 
 h1 .highlight {
-  color: #6c41ec;
+  animation: color-change 8s infinite;
 }
+
+@keyframes color-change {
+  0% {
+    color: #005555;
+  }
+  20% {
+    color: #069A8E;
+  }
+  40% {
+    color: #A1E3D8;
+  }
+  60% {
+    color: #F7FF93;
+  }
+  80% {
+    color: #005555;
+  }
+  100% {
+    color: #FAF5E4;
+  }
+}
+
 
 h2 {
   font-family: 'Poppins', sans-serif;
@@ -29,7 +71,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-color: #3A3845;
+  background-color: #03254c;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
